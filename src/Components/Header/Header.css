@@ -1,0 +1,33 @@
+.Header{
+    flex: 1;
+    background-color: var(--bg-color-1);
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.Header p{
+    font-size: 1rem;
+    line-height: 1.850rem;
+    color: var(--text-color-1);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Header_expression{
+    overflow-x: scroll;
+    width: 100%;
+    min-height: 30px;
+}
+
+.Header_expression p{
+    white-space: nowrap;
+    width: fit-content;
+    min-width: 100%;
+    font-weight: bold;
+}
+
+.Header_result{
+    font-weight: bold;
+    font-size: 1.3rem !important;
+    min-height: 30px;
+}
